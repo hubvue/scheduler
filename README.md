@@ -1,5 +1,5 @@
 # scheduler-go
-GoLang version scheduler
+GoLang version simple scheduler by onion model
 
 ### Install
 
