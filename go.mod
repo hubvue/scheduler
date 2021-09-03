@@ -1,3 +1,3 @@
-module github.com/scheduler-workspace/scheduler
+module github.com/hubvue/scheduler
 
 go 1.17
