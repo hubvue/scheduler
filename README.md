@@ -3,7 +3,7 @@ GoLang version scheduler
 
 ### Install
 
-> go get -u github.com/scheduler-workspace/scheduler
+> go get -u github.com/hubvue/scheduler
 
 
 ### Create Handler
