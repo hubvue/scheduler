@@ -1,11 +1,12 @@
 package test
 
 import (
-	"github.com/scheduler-workspace/scheduler"
 	"testing"
+
+	"github.com/hubvue/scheduler"
 )
 
-type handler1 struct {}
+type handler1 struct{}
 
 func (handler handler1) Start(data interface{}) interface{} {
 	num := data.(int)
@@ -17,7 +18,7 @@ func (handler handler1) End(data interface{}) interface{} {
 	return num * num
 }
 
-type handler2 struct {}
+type handler2 struct{}
 
 func (handler handler2) Start(data interface{}) interface{} {
 	num := data.(int)
@@ -28,8 +29,6 @@ func (handler handler2) End(data interface{}) interface{} {
 	num := data.(int)
 	return num + num
 }
-
-
 
 func TestScheduler(t *testing.T) {
 	t.Run("Single handler", func(t *testing.T) {
